@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numbers</title>
+</head>
+<body>
+<script type="text/javascript">
+	var num = prompt("Please enter a number")
+	var thou = (num/1000);
+	var tho = thou - thou%1;
+	var hund = (num-(tho*1000))/100;
+	var hun = hun - hun%1;
+	var tens = (num-(hun*100))/10;
+	var ten = tens - tens%1;
+	var ones = (num-(tens*10);
+	console.log(num+" has:");
+	console.log(tho+" thousands");
+	console.log(hun+" hundreds");
+	console.log(ten+" tens");
+	console.log(ones+" ones");
+</script>
+</body>
+</html>
